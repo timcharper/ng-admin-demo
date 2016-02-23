@@ -1,9 +1,20 @@
 # Booting
 
+## Install nodejs deps
+
+This doesn't happen automatically with sbt or anything, unfortunately.
+
+cd src/main/js/ui
+npm install
+
+## Postgres
+
 You need a postgres instance, running locally. Create the database
 `ngadmin` with user `ngadmin`, password `ngadmin`, root user.
 
     CREATE USER 'ngadmin' WITH PASSWORD 'ngadmin' SUPERUSER;
+
+## Starting
 
 Then, start the project:
 
