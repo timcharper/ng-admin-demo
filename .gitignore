@@ -1,0 +1,7 @@
+.ensime_cache/
+.ensime
+project/target/
+target/
+scratch
+application.conf
+node_modules
